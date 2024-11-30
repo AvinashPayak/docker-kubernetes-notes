@@ -38,4 +38,3 @@
 - `-a` outputs all the output from the container to my terminal
 
 ### Container isolation
-- 

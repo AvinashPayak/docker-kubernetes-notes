@@ -49,3 +49,11 @@ CMD ["redis-server"]
 - `docker build -t avinashpayak/redis:latest`
 - name is prefixed with docker username
 - can be used to create container without image id e.g `docker run avinashpayak/redis`
+
+### Manual image generation with docker commit
+- `docker run -it alpine sh` to run shell inside alpine container
+- `# apk add --update redis`
+- open second terminal `docker commit -c 'CMD "redis-server"' [container-id]` 
+- `-c` used to specify default command for the image to be created from the running container
+- docker run `[new container id]`
+

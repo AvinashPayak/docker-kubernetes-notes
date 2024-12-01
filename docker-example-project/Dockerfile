@@ -1,6 +1,6 @@
 # Use an existing docker image as a base
-FROM alpine
+FROM node:14-alpine
 # Download and install a dependency
-RUN apk add --update nodejs npm
+RUN npm install
 # Tell the image what to do when it starts as a container
-CMD ["npm install"]
+CMD ["npm", "start"]

@@ -44,3 +44,8 @@ CMD ["redis-server"]
 
 ### Docker rebuilds with cache
 - if we are rebuilding an image and if any of its steps remain unchanged from its previous execution then docker makes use of cache to retrieve data from previous execution instead of fetching again
+
+### Tagging image
+- `docker build -t avinashpayak/redis:latest`
+- name is prefixed with docker username
+- can be used to create container without image id e.g `docker run avinashpayak/redis`

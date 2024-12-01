@@ -62,3 +62,5 @@ then run `docker exec -it e22c99396fa5 redis-cli` on different terminal to execu
 
 - `docker exec -it e22c99396fa5 sh`
 - `sh` allows to run powershell inside container
+
+new line

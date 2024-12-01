@@ -1,0 +1,1 @@
+# Docker notes for me myself and I

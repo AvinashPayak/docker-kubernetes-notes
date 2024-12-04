@@ -5,6 +5,7 @@
 - `docker-compose up` to start all containers in yml together
 - `docker-compose down` to shut down all containers in yml together
 - `docker-compose up -d` to run all containers in detached mode so the same terminal can be used for other purpose
+- `docker-compose ps` to view all the containers running of docker-compose.yml
 
 ### Restart policies
 - `no` - never restart container if it stops or crashes

@@ -62,3 +62,6 @@ then run `docker exec -it e22c99396fa5 redis-cli` on different terminal to execu
 
 - `docker exec -it e22c99396fa5 sh`
 - `sh` allows to run powershell inside container
+
+### How to create Docker volumes
+- `docker run -p 3000:3000 -v /app/node_modules -v ${pwd}:/app`
